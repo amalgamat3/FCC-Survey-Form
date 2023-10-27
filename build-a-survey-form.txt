@@ -1,0 +1,133 @@
+** start of undefined **
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Honeybee Cafe Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our cafe!</p>
+</body>
+
+<form id="survey-form">
+  <label id="name-label" for="name">Name</label>
+  <input 
+   id="name" 
+   type="text" 
+   placeholder="Enter your name!" 
+   required
+   />
+  <label id="email-label" for="email">Email</label>
+  <input 
+   id="email" 
+   type="email" 
+   placeholder="Enter your email!" 
+   required
+   />
+   
+<div class="form-group">
+  <label id="number-label" for="number">Age (optional)</label>
+  <input 
+   type="number" 
+   id="number" 
+   class="number" 
+   placeholder="Age"
+   min="15"
+   max="120"
+   />
+</div>
+
+<div class="form-group">
+  <label for="dropdown">What is your current status?</label>
+  <select id="dropdown">
+   <option disabled selected value>Select current role</option>
+    <option>Student</option>
+    <option>Employee</option>
+    <option>Customer</option>
+    <option>Investor</option>
+  </select>
+</div>
+<hr>
+<div class="form-group">
+  <label for="radio">Would you reccommend us to a friend?</label>
+    <input 
+    name="recommend"
+    type="radio"
+    value="yes"
+    class="input-radio"> Yes
+    <input 
+    name="recommend"
+    type="radio"
+    value="no"
+    class="input-radio"/> No
+
+</div>
+
+<hr>
+
+<div class="form-group">
+  <label for="checkbox">What would you like to see improved? (Check all that apply)</label>
+  <label><input value="new-coffee" type="checkbox">New coffee blends</label>
+  <input 
+  value="food" 
+  type="checkbox"/>Bakery & Pastries section
+  <input 
+  value="service" 
+  type="checkbox"/>Customer Service
+  <input 
+  value="seating" 
+  type="checkbox"/>Seating Areas
+  <input 
+  value="cleaning" 
+  type="checkbox"/>Store Cleanliness
+</div>
+
+<hr>
+
+<div>
+  <label for="comments">Any comments or suggestions?</label>
+   <textarea
+   id="comments"
+   name="comment"
+   placeholder="Enter a comment here!"></textarea>
+</div>
+
+<div class="form-group">
+  <button type="submit" id="submit" class="submit-button">
+    Submit
+  </button>
+</div>
+   </form>
+  </div>
+ </body>
+</html>
+
+<!-- add a buncha other stuff, dont forget the requirements attributes for Age & Email!!!! i forgot how to do those rn so ill figure it out later lolz -->
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: grey;
+  color: #0a0a3e;
+  font-family:  Helvetica;
+  min-width: 300px
+}
+
+#title, #description {
+  text-align: center;
+}
+
+input {
+  display: block;
+}
+
+/* STYLE INPUT TO LIKE, totally, be in the center, later, lolz */
+
+** end of undefined **
+
