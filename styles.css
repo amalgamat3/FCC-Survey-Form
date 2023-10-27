@@ -1,16 +1,41 @@
 body {
-  background-color: grey;
-  color: #0a0a3e;
-  font-family:  Helvetica;
-  min-width: 300px
+  background-color: rgb(180, 130, 20);
+  color:rgb(237, 237, 237);
+  font-family:  "Poppins", sans-serif;
+  min-width: 300px;
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+form {
+  background-color: rgba(115, 93, 13, 0.7);
+  padding: 0.6rem;
 }
 
 #title, #description {
   text-align: center;
 }
 
-input {
-  display: block;
+hr {
+  background-color: rgba(115, 93, 13, 1);
+  border-color: rgba(115, 93, 13, 1);
 }
+.recommend-label {
+  font-size: 20px;
+
+}
+.input-radio {
+  display: inline-block;
+}
+
+.checkbox {
+  display: inline-block;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
 
 /* STYLE INPUT TO LIKE, totally, be in the center, later, lolz */
